@@ -78,15 +78,27 @@ END
 IIF([Quantity]<0,"Item refunded","Item not refunded")
 
 Note: You would have the following Distinct values after creating the above three calculated fields or when you drag any of the fields either on rows or column shelf you would see following Distinct values:
+
 ○	Registered or not 
+
 ■	Registered
+
 ■	Not Registered
+
+
 ○	 Refund transaction or not
+
 ■	Refund
+
 ■	Freebies
+
 ■	Sale
+
+
 ○	Item refunded or not
+
 ■	Item refund
+
 ■	Item not refund
 
 4.	For the current tier field edit the Null entry with an alias No current tier. 
